@@ -1,0 +1,54 @@
+.block-1, .block-2, .block-3{
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box{
+    height: 300px;
+    margin: 10px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-a{
+    width: 300px;
+}
+
+.box-b{
+    width: 500px;
+}
+
+.align-top{
+    align-self: flex-start;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.block-2{
+    flex-direction: column; 
+    height: 1000px;  
+}
+
+.block-3{
+    flex-wrap: wrap;
+    height: 700px;
+}
